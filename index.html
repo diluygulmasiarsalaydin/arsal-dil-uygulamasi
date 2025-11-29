@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arsal Dil Uygulaması</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #eef2f3;
+        }
+        header {
+            background: #1e88e5;
+            padding: 25px;
+            text-align: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        nav {
+            background: #1565c0;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            margin: 20px auto;
+            max-width: 700px;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+        .img-box img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        @media (max-width: 600px) {
+            header { font-size: 24px; }
+            nav a { font-size: 16px; }
+            .card { padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Arsal Dil Uygulaması
+    </header>
+
+    <nav>
+        <a href="#anasayfa">Anasayfa</a>
+        <a href="#hakkinda">Hakkında</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#iletisim">İletişim</a>
+    </nav>
+
+    <section id="anasayfa">
+        <div class="card">
+            <h2>Hoş Geldiniz</h2>
+            <p>Arsal Dil Uygulaması ile dil öğrenmeyi kolaylaştırmak için buradayız. Bu web sitesi modern, hızlı ve mobil uyumludur.</p>
+        </div>
+    </section>
+
+    <section id="hakkinda">
+        <div class="card">
+            <h2>Hakkında</h2>
+            <p>Arsal Dil Uygulaması, kullanıcıların farklı dilleri interaktif şekilde öğrenmesini hedefler. Buraya dilediğiniz açıklamayı ekleyebilirsiniz.</p>
+        </div>
+    </section>
+
+    <section id="galeri">
+        <div class="card img-box">
+            <h2>Galeri</h2>
+            <img src="https://picsum.photos/800/400" alt="Örnek Görsel" />
+            <p>Bu alana uygulama ile ilgili resimler ekleyebilirsiniz.</p>
+        </div>
+    </section>
+
+    <section id="iletisim">
+        <div class="card">
+            <h2>İletişim</h2>
+            <p>Email: arsal@ornek.com</p>
+            <p>Telefon: 0000 000 00 00</p>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Arsal Dil Uygulaması
+    </footer>
+</body>
+</html>
